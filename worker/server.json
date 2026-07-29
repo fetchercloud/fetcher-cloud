@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "name": "cloud.fetcher/fetcher",
+  "description": "Tools AI agents can't run themselves: render JavaScript pages in a real browser, extract clean article content as Markdown, resolve URL redirect chains, and check domain availability. Pay-per-call via x402 (USDC on Base/Solana) with a free daily tier.",
+  "version": "1.0.0",
+  "websiteUrl": "https://fetcher.cloud",
+  "repository": {
+    "url": "https://github.com/YOUR_GH_USERNAME/fetcher-cloud",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.fetcher.cloud/mcp"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "fetcher-cloud-workers",
+  "version": "0.1.0",
+  "description": "fetcher.cloud — x402-paid tools for AI agents, on Cloudflare Workers",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "@cloudflare/puppeteer": "^1.2.0",
+    "@coinbase/x402": "^2.1.0",
+    "@x402/core": "^2.19.0",
+    "@x402/evm": "^2.19.0",
+    "@x402/hono": "^2.19.0",
+    "@x402/svm": "^2.19.0",
+    "diff": "^7.0.0",
+    "fast-xml-parser": "^4.5.7",
+    "hono": "^4.12.32",
+    "node-html-parser": "^7.1.0",
+    "qrcode": "^1.5.4",
+    "unpdf": "^0.12.2"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
